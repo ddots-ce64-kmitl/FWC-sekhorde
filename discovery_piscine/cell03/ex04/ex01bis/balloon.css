@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+#balloon {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+    transition: width 120ms ease, height 120ms ease, background-color 120ms ease;
+}
